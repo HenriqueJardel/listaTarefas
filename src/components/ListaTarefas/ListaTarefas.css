@@ -1,0 +1,9 @@
+.ListaTarefas {
+    border-color: #000980;
+    max-height: 440px;
+    overflow: auto;
+}
+
+.ListaTarefas .Lengend {
+    color: #000980;
+}

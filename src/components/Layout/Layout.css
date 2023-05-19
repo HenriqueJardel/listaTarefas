@@ -1,0 +1,12 @@
+.Layout {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+}
+
+.Layout .Center {
+    text-align: center;
+}
+

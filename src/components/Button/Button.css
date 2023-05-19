@@ -1,0 +1,31 @@
+.Button {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 40px;
+    width: 120px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+}
+
+.Button .Icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5px;
+    background-color: #000CB0;
+    color: white;
+}
+
+.Button .Texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 600;
+    color: white;
+    background-color: #0010F0;
+}

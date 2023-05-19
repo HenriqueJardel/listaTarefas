@@ -1,0 +1,23 @@
+.FormCadastro {
+    display: flex;
+    border-color: #000980;
+}
+
+.FormCadastro .FormGroup {
+    margin: 5px;
+}
+
+.FormCadastro .Lengend {
+    color: #000980;
+}
+
+
+.FormCadastro .Form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.FormCadastro .Form .Input {
+    width: 80%;
+}

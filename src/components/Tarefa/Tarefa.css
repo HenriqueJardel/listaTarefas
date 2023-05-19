@@ -1,0 +1,40 @@
+.Tarefa {
+    padding: 15px;
+    margin-bottom: 5px;
+    height: 60px;
+}
+
+.Tarefa .Labels {
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+    margin-bottom: 5px;
+}
+
+.Tarefa .Valores {
+    display: grid;
+    grid-template-columns: 70% 20% 10%;
+}
+
+.Tarefa .Valores .Descricao {
+    overflow: auto;
+    margin-right: 5px;
+}
+
+.Tarefa .Valores .Acoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tarefa .Valores .Acoes .Concluir {
+    background-color: green;
+    border: none;
+    color: white;
+    margin: 5px;
+}
+
+.Tarefa .Valores .Acoes .Remover {
+    background-color: red;
+    border: none;
+    color: white;
+}
